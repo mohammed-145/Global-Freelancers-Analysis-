@@ -1,6 +1,6 @@
 # Global Freelancers Data Analysis (MySQL)
 
-# Project Overview
+# Overview
 
 This project explores a global freelancers dataset using MySQL, focusing on data cleaning, exploratory data analysis (EDA), and relationship analysis**. The objective is to demonstrate strong SQL skills and an end-to-end analytical workflow suitable for a data analyst portfolio.
 
