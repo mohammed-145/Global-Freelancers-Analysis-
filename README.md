@@ -2,7 +2,8 @@
 
 # Overview
 
-This project explores a global freelancers dataset using MySQL, focusing on data cleaning, exploratory data analysis (EDA), and relationship analysis**. The objective is to demonstrate strong SQL skills and an end-to-end analytical workflow suitable for a data analyst portfolio.
+This project explores a global freelancers dataset using MySQL, focusing on data cleaning, exploratory data analysis (EDA), relationship analysis, and creating a dashboard  using Power BI to demonstarte the insights.
+The objective is to demonstrate strong SQL skills, Power BI skills, and an end-to-end analytical workflow suitable for a data analyst portfolio.
 
 The project simulates a real-world scenario where raw data must be cleaned, standardized, and analyzed before meaningful insights can be extracted.
 
@@ -10,12 +11,12 @@ The project simulates a real-world scenario where raw data must be cleaned, stan
 
 # Project Objectives
 
-* Clean and standardize messy real-world data
-* Handle missing and inconsistent values safely
-* Perform structured exploratory data analysis (EDA)
-* Analyze relationships between experience, pay, ratings, and activity status
-* Generate insights relevant to freelancing platforms and marketplaces
-
+* Clean and standardize messy real-world data.
+* Handle missing and inconsistent values safely.
+* Perform structured exploratory data analysis (EDA).
+* Analyze relationships between experience, pay, ratings, and activity status.
+* Generate insights relevant to freelancing platforms and marketplaces.
+* Generate an interactive dashboard using Power BI to understand insights and trends.
 ---
 
 # Dataset Description
@@ -90,26 +91,37 @@ The EDA process followed a structured approach:
 * Rating vs years of experience
 * Client satisfaction by pay category
 * Active vs inactive freelancers comparison
-
+  
 ---
+
+# Power BI Dashboard
+
+As a continuation of this project, an interactive Power BI dashboard was developed to visualize and communicate the insights derived from the SQL analysis.
+
+### Dashboard Features:
+- KPI cards (total freelancers, average hourly rate, rating, experience)
+- Average hourly rate across countries
+- Demand by primary skill
+- Hourly rate distribution
+- Relationships between experience, ratings, and pay
+- Interactive filters (country, skill, gender, status)
 
 # Key Insights
 
-* Freelancers with more experience tend to command higher hourly rates
-* High-paying freelancers generally show higher client satisfaction
-* Certain countries dominate the freelancer population
-* Active freelancers earn higher average rates compared to inactive ones
-
-*(Exact results may vary depending on query execution)*
+* Freelancers with more experience tend to command higher hourly rates.
+* High-paying freelancers generally show higher client satisfaction.
+* Certain countries dominate the freelancer population.
+* Active freelancers earn higher average rates compared to inactive ones.
 
 ---
 
-# Tools & Technologies
+# Tools & Techniques
 
 * **Database:** MySQL
 * **Language:** SQL
-* **Techniques:**
+* **Visualization** Power BI
 
+* **Techniques:**
   * Data cleaning
   * Data standardization
   * Aggregation & grouping
@@ -129,8 +141,8 @@ Global-Freelancers-Analysis/
 │   ├── Cleaning.sql                    # Data cleaning & standardization
 │   └── EDA.sql                         # Exploratory data analysis queries
 │
-├── Visuals/                            # Visualizations (future)
-│
+├── Dashboard/                            └─ PowerBI_Dashboard.pbix 
+│   └─ PowerBI_Dashboard.pdf
 └── README.md                           # Project documentation
 
 
