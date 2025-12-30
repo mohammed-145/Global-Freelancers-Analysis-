@@ -141,19 +141,12 @@ Global-Freelancers-Analysis/
 │   ├── Cleaning.sql                    # Data cleaning & standardization
 │   └── EDA.sql                         # Exploratory data analysis queries
 │
-├── Dashboard/                            └─ PowerBI_Dashboard.pbix 
+├── Dashboard/                           
+|   ├── PowerBI_Dashboard.pbix          # Data Visualization
 │   └─ PowerBI_Dashboard.pdf
 └── README.md                           # Project documentation
 
 
----
-
-# How to Run
-
-1. Import the dataset into MySQL
-2. Run `data_cleaning.sql` to prepare the data
-3. Run `eda.sql` to perform exploratory analysis
-4. Review query outputs for insights
 
 ---
 
